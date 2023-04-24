@@ -1,0 +1,88 @@
+.page-container{
+		width: 100%;
+		height: 100%;
+	.page-wallet{
+		width: 100%;
+		margin-top: 40px;
+		.page-wallet-moneyAll{
+			width: 90%;
+			height: 125px;
+			border-radius: 10px;
+			margin: 0 auto;
+			background-color: #212121;
+			color: #ffffff;
+			text-align: center;
+			box-shadow: 0px 10px 20px #333333;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			&>view{
+				width: 50%;
+			}
+		}
+		.page-wallet-tixian{
+			background: #ffffff;
+			position: relative;
+			top: -5px;
+			padding-bottom: 10px;
+			.page-wallet-ed{
+				text-align: center;
+				font-weight: 900;
+				font-size: 18px;
+				height: 47px;
+				line-height: 47px;
+				
+			}
+			.page-wallet-btn{
+				display: block;
+				width: 120px;
+				border: 1px solid #000;
+				margin: 0 auto;
+				font-weight: 900;
+				border-radius: 25px;
+				padding: 3px;
+				text-align: center;
+				color: #4c4c4c;
+				margin-top: 20px;
+			}		
+		}
+	}
+	.page-bank{
+		margin-top: 10px;
+		background: #ffffff;
+		padding: 15px;
+		.page-bank-name{
+			color: rgb(58, 58, 58);
+			background: linear-gradient(180deg, rgba(255, 225, 108, 0.5) 0%, rgba(252, 212, 54, 0.5) 100%);
+			background-size: 30% 30%;
+			background-repeat: no-repeat;
+			background-position: left bottom;
+			font-weight: 900;
+			font-size: 20px;
+		}
+		.page-bank-card{
+			padding: 15px 25px;
+			margin-top: 20px;
+			background: linear-gradient(32deg, #008C77 0%, #33c3ae 100%);
+			background-repeat: no-repeat;
+			background-position: bottom right;
+			width: 100%;
+			border-radius: 10px;
+			color: #ffffff;
+		}
+	}
+	.page-support{
+		background: #ffffff;
+		box-sizing: border-box;
+		.page-support-title{
+			text-align: center;
+			padding: 20px 0;
+		}
+		.page-support-card{
+			image{
+				width: 100%;
+			}
+		}
+	}
+	
+}

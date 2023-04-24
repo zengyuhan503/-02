@@ -1,0 +1,131 @@
+.page-container{
+	width: 100%;
+	height: 100%;
+	&.page-back{
+		background: url('../../static/index_bg31.jpg');
+	}
+	.page-user{
+		background-color: #058af9;
+		padding: 30px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-flow: column;
+		border-radius: 0 0 10% 10%;
+		padding-bottom: 50px;
+		image{
+			width: 100px;
+			height: 100px;
+		}
+		.page-user-name{
+			color: #ebeef5;
+			font-size: 18px;
+			padding: 20px 0;
+		}
+	}
+	.page-data{
+		margin-top: 30px;
+	}
+	.page-loginOut{
+		padding: 45px;
+		button{
+			border-radius:50px ;
+			line-height: 39px;
+		}
+	}
+	
+	.footer-nav{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		box-shadow:0px 0px 2px #000;
+		background: #f8f8f9;
+		padding: 5px 0;
+		.uni-grid-item{
+			height: auto !important;
+			text-align: center;
+			justify-content: center;
+			display: flex;
+			align-items: center;
+			.uni-icons{
+				margin-bottom:5px;
+			}
+			.active{
+				color:#7457ea ;
+				
+			}
+		}
+	}
+	
+	.page-user-info-waring{
+		color: #666;
+		padding: 6px;
+		line-height: 20px;
+		text-align: center;
+		}
+	.chat-custom-right{
+		margin-top: 10px;
+	}
+	
+		.page-waring{
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-size: 13px;
+			background: #f2f2f2;
+			line-height: 18px;
+		}
+	.page-idCard{
+		.page-idCard-form{
+			background: #ffffff;
+			padding: 15px;
+		}
+	}
+	.upload_idCard{
+		margin-top: 20px;
+		background: #ffffff;
+		position: relative;
+		image{
+			width: 100%;
+		}
+		.upload_idCard_up{
+			width: 100%;
+			height: 100%;
+			background: rgb(0 ,0 ,0 , 0.1);
+			position: absolute;
+			left: 0;
+			top: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-flow: column;
+			image{
+				width: 60px;
+				height: 60px;
+			}
+			.upload_idCard_text{
+				color: #fff;
+				font-size: 14px;
+				line-height: 28px;
+				width: 162px;
+				background: #9cf;
+				padding: 3px 9px;
+				text-align: center;
+				border-radius: 10px;
+				margin-top: 30px;
+			}
+		}
+	}
+	.page-selec-form{
+		background: #ffffff;
+		padding: 15px;
+	}
+	.page-bank{
+		margin-top: 20px;
+		background: #ffffff;
+		.page-bank-form{
+			padding: 15px;
+		}
+	}
+}

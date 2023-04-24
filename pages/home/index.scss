@@ -1,0 +1,146 @@
+.page-container{
+	.page-header{
+		width: 100%;
+		height: 230px;
+		padding:35px 15px;
+		box-sizing: border-box;
+		background: url('../../static/home-header.png') no-repeat 100% 100%;
+		.header-text{
+			color: #fff;
+			font-weight: 900;
+			font-size: 26px;
+			text-shadow: 3px 2px 3px #646566;
+		}
+		.uni-icons{
+			position: relative;
+		}
+		.header-desc{
+			color: #fff;
+			letter-spacing:10px;
+			font-size:16px;
+			text-shadow: 3px 2px 3px #646566;
+		}
+	}
+	.page-body{
+		padding: 15px;
+		position: relative;
+		top: -130px;
+		.page-card{
+			border-radius: 15px;
+			position: relative;
+			padding: 15px;
+			background: #fff;
+			box-shadow: 1px 1px 1px  rgba(0,0,0,.05);
+				
+			.page-card-title{
+				color: #000;
+				// font-weight: 900;
+				font-size:18px;
+				text-shadow: 1px 1px 1px #646566;
+			}
+				
+			.page-card-desc{
+				color: #858c9c;
+				// font-weight: 900;
+				font-size:16;
+				text-shadow: 1px 1px 1px #d7d7d7;
+				margin: 10px 0;
+			}
+			.page-card-money{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.page-card-moneyNum{
+					color: #3d81e8;
+					text-shadow: -1px 1px 1px #b9b9b9;
+					font-size: 30px;
+					font-weight: 700;
+					width: 60%;
+					text-align: left;
+				}
+				.page-card-moneyapply{
+					text-align: right;
+					width: 40%;
+					button{
+						width: 80%;
+						padding: 0;
+						font-size: 14px;
+						border-radius: 50px;
+						
+					}
+				}
+			}
+			.page-card-waring{
+				background: #f7f8fc;
+				margin-top: 15px;
+				padding: 8px;
+				.waring-text{
+					text-align: left;
+					color: #57657d;
+					font-size: 11px;
+					height: 35px;
+					line-height: 35px;
+					text{
+						font-weight: 900;
+						margin: 0 10px;
+					}
+				}
+			}
+			
+		}
+		.page-marquee{
+			background: rgb(132 ,155 ,252 , 0.10);
+			margin-top: 20px;
+				.page-marquee-item{
+					font-size: 14px;
+					color: rgb(67, 103, 253);
+					line-height: 20px;
+					text-align: center;
+				}
+		}
+		.page-image-swiper {
+				position: relative;
+				top:-45px;
+			.swiper-item{
+				text-align: center;
+				image{
+					width: 100%;
+				}
+			}
+		}
+		.page-new-setp{
+			background: url('../../static/bg_setp.png') no-repeat 100% 100%;
+			background-size: 100% 100%;
+			padding: 0 10px;
+			margin-top: 8px;
+			height: 160px;
+			position: relative;
+			top: -54px;
+			.setp-text{
+				font-size: 30px;
+			}
+			.setp-desc{
+				font-size: 12px;
+				position: relative;
+				margin-top: 35px;
+			}
+			.page-setp-items{
+				margin-top: 48px;
+				padding: 0 15px;
+				.page-setp-item{
+					font-size: 12px;
+					text-align: center;
+					view{
+						margin-top: 8px;
+					}
+					.iconfont{
+						border-radius: 50%;
+						padding: 6px;
+						background-color: #c3d2fb;
+						color:#f8f8f8;
+					}
+				}
+			}
+		}
+	}
+	}

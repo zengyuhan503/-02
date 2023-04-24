@@ -1,0 +1,111 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/service/index",
+			"style": {
+				"navigationBarTitleText": "客服中心"
+			}
+		},
+		{
+			"path": "pages/loan/pending",
+			"style": {
+				"navigationBarTitleText": "提现办理"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/loan/confirmed",
+			"style": {
+				"navigationBarTitleText": "申请借款"
+			}
+		},
+		{
+			"path": "pages/loan/apply",
+			"style": {
+				"navigationBarTitleText": "申请贷款"
+			}
+		},
+		{
+			"path": "pages/loan/repayment",
+			"style": {
+				"navigationBarTitleText": "我的还款"
+			}
+		},
+		{
+			"path": "pages/loan/progress",
+			"style": {
+				"navigationBarTitleText": "借款详情"
+			}
+		},
+
+		{
+			"path": "pages/loan/bill",
+			"style": {
+				"navigationBarTitleText": "我的借款"
+			}
+		},
+
+		{
+			"path": "pages/user/bankInfo",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/user/data",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/user/idcard",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		},
+		{
+			"path": "pages/user/basicsInfo",
+			"style": {
+				"navigationBarTitleText": "基本资料"
+			}
+		},
+		{
+			"path": "pages/wallet/index",
+			"style": {
+				"navigationBarTitleText": "钱包"
+			}
+		},
+		{
+			"path": "pages/signup/index",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
